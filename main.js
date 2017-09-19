@@ -12,7 +12,7 @@
     board.markSpace(0, 1, playerX.marker);
     board.markSpace(0, 2, playerX.marker);
 
-    console.log(board.checkIfWinner('x'))
+    console.log(board.checkIfWinner(playerX.marker))
     
 })();
 
